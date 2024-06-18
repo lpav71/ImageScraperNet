@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Image Scraper";
+}
+
+<h2>Image Scraper</h2>
+
+<form asp-action="Scrape" method="post">
+    <div class="form-group">
+        <label for="url">Введите URL</label>
+        <input type="text" class="form-control" id="url" name="url" required />
+
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Выполнить</button>
+</form>
